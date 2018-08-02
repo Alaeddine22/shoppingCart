@@ -1,0 +1,86 @@
+body {
+    background-color: gainsboro;
+    display: flex ;
+    justify-content: center;
+    align-items: center ;
+}
+
+main {
+    width: 80vw;
+    height: 50vh ;
+    padding: 30px; 
+    background-color: rgba(102,102,155,0.9) ;
+    border-radius: 20px;
+}
+
+.item {
+    
+    display :flex ;
+    padding: 20px;
+    height: 7vh ;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.total {
+    font-family: fantasy;
+    border-bottom: 0.9px solid ;
+    border-bottom-color:white;
+    padding-bottom: 10px; 
+}
+
+.supprimer {
+
+    padding: 1vw; 
+}
+
+.like {
+
+    padding: 1vw; 
+}
+
+.img-item {
+   
+}
+
+.nom-color {
+    font-family: sans-serif;
+    flex : 3 ;
+    padding: 1vw;
+    color: lightgray;
+}
+
+.boutons {
+    flex: 2;
+    display: flex ;
+    align-items: baseline; 
+}
+
+.color-item {
+    color : white ; 
+}
+
+
+.text-total {
+    font-size: 20px;
+}
+
+
+
+textarea {
+    margin-top: 20px;
+    width: 35px; 
+    height: 25px; 
+    resize: none ;
+    text-align: center ;
+}
+
+
+
+button {
+    padding: 3px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    margin: 10px ;
+}
+
